@@ -1,0 +1,269 @@
+ /*Global Css*/
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*main-CSS*/
+
+/*Header Start*/
+header{
+	padding: 20px 0;
+}
+.container{
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	overflow: hidden;
+
+ }
+
+.logo{
+	width: 18%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	margin-top:10px;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0px 25px;
+	font-family: sans-serif;
+	size: 17px;
+	color: black;
+}
+.menu ul li a:hover{
+	color: #973745;
+}
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+/*Header End*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	min-height: 400px;
+	padding: 100px 0;
+}
+ 
+.banner-content{
+	width: 50%;
+}
+.banner-content h1{
+	font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 400px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+}
+.banner-content p{
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 14px;
+}
+.banner-content button{
+	width: 260px;
+    height: 48px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+    background-color: #C1203F;
+    text-transform: uppercase;
+    margin: 30px 0 0;
+    border: none;
+    transition: .3s;
+}
+.banner-content button:hover{
+	background-color: #88A3C1;
+}
+/*Works Start*/
+.works{
+	padding: 100px 0;
+}
+.top{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+.top h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400px;
+    color: #000;
+    text-transform: uppercase;
+}
+.top p{
+	margin: 0 0 40px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #A0A0A0;
+    text-transform: capitalize;
+}
+.works .bottom{
+	 overflow: hidden;
+	   
+}
+.bottom .single{
+	margin: 3%;
+    width: 27%;
+    float: left;
+    text-align: center;
+}
+.bottom .single p{
+	padding: 10px;
+	font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #000;
+    text-transform: capitalize;
+}
+.bottom .single .s_img{
+	width: 54%;
+	margin: 0 auto;
+}
+.bottom .single .s_img img{
+	width: 100%;
+}
+
+/* start process*/
+.process{
+	background-color: #FAFAFA;
+	overflow: hidden;
+	padding: 100px 0;
+}
+.process .row{}
+.left_process{
+	width: 48%;
+	float: left;
+}
+.left_process h1{
+	font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #000;
+    text-transform: uppercase;
+}
+.left_process p{
+	width: 81%;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #A0A0A0;
+    text-transform: capitalize;
+}
+.left_process button{
+	margin: 20px 0 0;
+	width: 100px;
+	height: 35px;
+	background-color: #BE243E;
+	font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    color: #fff;
+    text-transform: uppercase;
+	border: none;
+	border-radius: 2px;
+	box-shadow: none;
+	cursor: pointer;
+}
+.right_process{
+	width: 48%;
+	float: right;
+}
+
+.right_process iframe{
+	border: none;
+	height:250px;
+	width: 100%;
+}
+
+/*feature start*/
+.feature{
+	padding: 100px 0;
+}
+.f_bottom{
+	overflow: hidden;
+	margin: 60px 0 0;
+}
+.f_bottom .single{
+    margin: 12px 1.7%;
+    padding: 40px 20px;
+    width: 26%;
+    float: left;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.39); 
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.39);
+}
+.f_bottom .single h3{
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #000;
+    text-transform: uppercase;
+}
+.f_bottom .single p{
+	margin: 0 auto;
+	width: 80%;
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #A0A0A0;
+    text-transform: capitalize;
+}
+.f_img{
+	width: 50%;
+	margin: 0 auto;
+}
+.f_img img{
+	width: 55%;
+}
+.b_wrap{
+	text-align: center;
+}
+.feature button{
+	width: 130px;
+	height: 40px;
+	border: none;
+	font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700px;
+    color: #BA213F;
+    text-transform: uppercase;
+}
+
+/*footer start*/
+.footer{
+	background-color: #535D69;
+	padding: 20px;
+}
+.footer p{
+	text-align: center;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+    text-transform: capitalize;
+}
